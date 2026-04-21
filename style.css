@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+  background: #faf9f6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url('images/kovidar.jpg') center/cover no-repeat;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.btn {
+  padding: 12px 24px;
+  background: #556b2f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.pillars {
+  display: flex;
+  padding: 40px;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.light {
+  background: #f0eee9;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.philosophy {
+  text-align: center;
+  padding: 60px;
+  font-style: italic;
+}
+
+.cta {
+  text-align: center;
+  padding: 60px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
